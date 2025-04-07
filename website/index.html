@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KITTYCORE</title>
+  <style>
+    body {
+      background: #ffccff;
+      font-family: Comic Sans MS, cursive;
+      text-align: center;
+      color: #000;
+    }
+    h1 {
+      font-size: 5rem;
+      margin-top: 1rem;
+      text-shadow: 2px 2px #ff0000;
+    }
+    .logo-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    img {
+      max-width: 300px;
+      border: 5px dashed #000;
+      border-radius: 20px;
+    }
+    p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      background: #fff;
+      padding: 1rem;
+      border: 2px solid #000;
+      display: inline-block;
+    }
+    .socials {
+      margin-top: 2rem;
+    }
+    .socials a {
+      margin: 0 1rem;
+      display: inline-block;
+    }
+    .socials img {
+      width: 50px;
+      height: 50px;
+      filter: grayscale(100%);
+      transition: filter 0.3s;
+    }
+    .socials img:hover {
+      filter: none;
+    }
+    .glitter {
+      animation: glitter 1s infinite alternate;
+    }
+    @keyframes glitter {
+      0% { transform: rotate(-3deg); }
+      100% { transform: rotate(3deg); }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glitter">KITTYCORE</h1>
+
+  <div class="logo-section">
+    <img src="kittycore_logo.png" alt="Logo Kittycore">
+    <p>Groupe de trans anarchistes qui font bip boup</p>
+  </div>
+
+  <div class="socials">
+    <a href="https://bsky.app/profile/kittycore.bsky.social" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/langfr-1280px-Bluesky_Logo.svg.png" alt="Bluesky">
+    </a>
+    <a href="https://instagram.com/kittycore" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+  </div>
+
+  <marquee scrollamount="10">⎛⎝ ≽  >  ⩊   < ≼ ⎠⎞ Miaou miaou nyaa~~ bip boop</marquee>
+</body>
+</html>
